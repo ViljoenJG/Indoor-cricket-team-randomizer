@@ -1,13 +1,12 @@
-const team = [
-  'Allan',
-  'Berrie',
-  'Kobus V',
-  'Rudi',
-  'Kobus E',
-  'Stephen',
-  'Vlam',
-  'Wimpie',
-];
+const fs = require('fs');
+const path = require('path');
+
+const team = fs
+  .readFileSync(path.join(__dirname, 'team.txt'), {
+    encoding: 'utf-8',
+  })
+  .trim()
+  .split('\n');
 
 const positions = [
   '1 Off',
