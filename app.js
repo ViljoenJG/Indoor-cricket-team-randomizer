@@ -12,7 +12,7 @@ const positions = [
   '1 Off',
   '2 Off',
   '3 Off',
-  '1 leg',
+  '1 Leg',
   '3 Leg',
   'Backstop',
   'Keeper',
