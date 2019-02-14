@@ -47,9 +47,7 @@ const randomizeFielding = (team, positions) => {
   const shuffler = shufflerFactory(randomNumber());
   const shuffledTeam = shuffler(team);
 
-  return [...new Array(8).keys()]
-    .map((x, a) => `${positions[a]}: ${shuffledTeam[a]}`)
-    .join('\n');
+  return positions.map((x, a) => `${x}: ${shuffledTeam[a]}`).join('\n');
 };
 
 const randomizeBatting = team => {
