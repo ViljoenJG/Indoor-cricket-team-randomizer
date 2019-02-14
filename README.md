@@ -1,6 +1,6 @@
-# Randomize Action Cricket Team
+# Randomize Indoor Cricket Team
 
-I Manage an Action Cricket team and we wanted to mix up the fielding positions and batting order a bit. I created this little script to take care of it.
+I Manage an Indoor Cricket team and we wanted to mix up the fielding positions and batting order a bit. I created this little script to take care of it.
 
 ## Getting started
 
